@@ -26,6 +26,7 @@
     "@capacitor/motion": "^1.0.2",
     "@capacitor/status-bar": "1.0.3",
     "@ionic/angular": "^5.5.2",
+    "feather-icons": "^4.28.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
@@ -42,6 +43,7 @@
     "@angular/language-service": "~12.0.1",
     "@capacitor/cli": "3.2.3",
     "@ionic/angular-toolkit": "^4.0.0",
+    "@types/feather-icons": "^4.7.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
