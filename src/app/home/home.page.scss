@@ -4,6 +4,7 @@ ion-content {
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     .feather-icon svg {
@@ -11,5 +12,13 @@ ion-content {
       height: 72px;
       stroke-width: 1px;
     }
+    .home-text{
+      font-size: 72px ;
+    text-align: center;
+    font-weight: 300;
+
+
+    }
+
   }
 }
