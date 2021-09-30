@@ -1,10 +1,15 @@
 <ion-content id="home-content" [fullscreen]="true">
-  <div class="wrapper">
-    <div class="title-group">
+  <div class="wrapper" (click)="onScreenTouched()">
+    <div class="title-group" *ngIf="(response$ | async) === null  ; else magicText">
       <div class="feather-icon">
         <i data-feather="smartphone"></i>
       </div>
       <div class="home-text">Tap Your Screen</div>
     </div>
+    <ng-template #magicText>
+      <div class="magic-text">
+       {{response$ | async}}
+      </div>
+    </ng-template>
   </div>
 </ion-content>
